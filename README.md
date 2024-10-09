@@ -21,7 +21,7 @@ Before running the tool, ensure your system is updated and that `nmap` is instal
 
 1. **Update your system and install nmap** (if not already installed):
 ```bash
-   sudo apt update && sudo apt upgrade -y && sudo apt install nmap -y
+sudo apt update && sudo apt upgrade -y && sudo apt install nmap -y
    ```
 2. **Clone the repository and run the tool**:
 ```bash
