@@ -14,7 +14,13 @@ sudo python3 skidmap.py
 ```
 ## Installation
 
-Clone the repository and run the tool:
+Before running the tool, ensure your system is updated and that `nmap` is installed. You can do this by following these steps:
+
+1. **Update your system and install nmap** (if not already installed):
+   ```bash
+   sudo apt update && sudo apt upgrade -y && sudo apt install nmap -y
+   ```
+2. **Clone the repository and run the tool**:
 ```bash
 git clone https://github.com/Prompt-Injection/skidmap.git && cd skidmap && sudo python3 skidmap.py
 ```
