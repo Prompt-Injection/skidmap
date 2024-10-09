@@ -11,9 +11,10 @@ To run SkidMap, simply execute the following command in your terminal:
 
 ```bash
 sudo python3 skidmap.py
+```
 
 ## Installation
 
 Clone the repository and run the tool:
-
+```bash
 git clone https://github.com/Prompt-Injection/skidmap.git && cd skidmap && sudo python3 skidmap.py
