@@ -22,10 +22,10 @@ def print_welcome_banner():
     print("\nAuthor: Prompt Injection\n")
     print("""
 [*] Welcome to SkidMap! 
-[*] This tool is designed to automate those tedious Nmap commands, making network scanning faster and more accessible for everyone.
-[*] Whether you're a seasoned pro or a new user, SkidMap will guide you through the powerful world of Nmap.
+[*] This tool is designed to automate those tedious Nmap commands, making network scanning faster and more efficient.
+[*] Whether you're a Penetration tester or a Blue Teamer, SkidMap will guide you through the powerful world of Nmap.
 [*] With built-in explanations of various flags and options, you'll not only streamline your scans but also gain valuable insights into how Nmap operates.
-[*] Let's get started and elevate your network scanning skills to the next level! \n""")
+[*] With SkidMap Network Reconnaissance haven't been easier, Happy Hacking! \n""")
 
 def phase_one_ping_sweep(target):
     """
