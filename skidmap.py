@@ -113,10 +113,9 @@ def port_sweep_basic_scan(target, ports, output_format, filename):
 
 def stealthy_scan(hosts_file, output_format, filename):
     """
-    Stealthy scan with firewall evasion techniques (-g 53 -mtu 16) and changing source MAC address.
+    Stealthy scan with firewall evasion techniques (-g 53 -mtu 16).
     """
-    random_mac = f"00:{random.randint(10, 99)}:{random.randint(10, 99)}:{random.randint(10, 99)}:{random.randint(10, 99)}:{random.randint(10, 99)}"
-    print(f"\n[*] Running Stealthy Scan on hosts listed in {hosts_file} with firewall evasion techniques (Source MAC: {random_mac})")
+    print(f"\n[*] Running Stealthy Scan on hosts listed in {hosts_file} with firewall evasion techniques")
     print("""
     Explanation of flags used in the Stealthy Scan:
     -g 53 : Use source port 53 (DNS) for the scan, which can help in evading firewalls.
@@ -130,8 +129,7 @@ def port_sweep_stealthy_scan(target, ports, output_format, filename):
     """
     Stealthy port sweep scan specifying ports with firewall evasion techniques.
     """
-    random_mac = f"00:{random.randint(10, 99)}:{random.randint(10, 99)}:{random.randint(10, 99)}:{random.randint(10, 99)}:{random.randint(10, 99)}"
-    print(f"\n[*] Running Stealthy Port Sweep Scan on target {target} for ports: {ports} (Source MAC: {random_mac})")
+    print(f"\n[*] Running Stealthy Port Sweep Scan on target {target} for ports: {ports}")
     print("""
     Explanation of flags used in the Stealthy Port Sweep Scan:
     -g 53 : Use source port 53 (DNS) for the scan to help evade detection by firewalls.
